@@ -1,0 +1,148 @@
+
+
+.mainscreen{
+  margin: auto;
+  width: 1200px;
+  height: 750px;
+  position: relative;
+  border: 3px solid black;
+  background-image: url('bg.jpg');
+}
+
+
+/*header*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.food1 img {
+    width:25%;
+    height: 50px;
+}
+
+
+.top1 {
+    height:390px;
+    background-color:#FFFFFF;
+    margin-top:10px;
+    overflow: hidden;
+}
+
+.top1 img {
+    height:50%;
+}
+
+}
+
+.name1{
+
+background-color:#777777;
+height:50px;
+
+}
+
+.description1{
+
+background-color:#777777;
+height:250px;
+
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow :scroll;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 30%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.btnh {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btnh:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
